@@ -49,20 +49,35 @@
                 </h3>
 
                 <hr>
-
+              <!--
                 <a href="<?php echo base_url();?>index.php/medicion/listapdf" target="_blank">
                   <button type="submit" class="btn btn-success btn-block">Lista pdf mediciones</button>  
-                </a>
+                </a>-->
 
-                <!-- Video reporte en excel, colocar boton-->
+                <!-- Video reporte en excel, colocar boton
                 <a href="<?php echo base_url();?>index.php/medicion/listaxls" target="_blank">
                   <button type="submit" class="btn btn-warning btn-block">Lista de medicion en EXCEL</button>  
-                </a>
-                <!-- Se listaxls -->
+                </a>-->
+                <!-- Se listaxls 
 
                 <a href="<?php echo base_url();?>index.php/medicion/listaxls2" target="_blank">
                   <button type="submit" class="btn btn-danger btn-block">Lista 2 EXCEL</button>  
-                </a>
+                </a>-->
+                
+                <div class="row">
+                  <div class="col-md-4">
+                    <a href="<?php echo base_url();?>index.php/medicion/listapdf" target="_blank" class="btn btn-success btn-block">Lista pdf mediciones</a>
+                  </div>
+
+                  <div class="col-md-4">
+                    <a href="<?php echo base_url();?>index.php/medicion/listaxls" target="_blank" class="btn btn-warning btn-block">Lista de medicion en EXCEL</a>
+                  </div>
+
+                  <div class="col-md-4">
+                    <a href="<?php echo base_url();?>index.php/medicion/listaxls2" target="_blank" class="btn btn-danger btn-block">Lista 2 EXCEL</a>
+                  </div>
+                </div>
+
 
               </div>
               <!-- /.card-header -->
