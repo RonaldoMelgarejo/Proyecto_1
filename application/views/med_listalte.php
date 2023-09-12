@@ -26,28 +26,26 @@
 
             <div class="card">
               <div class="card-header">
-                <h3 class="card-title">Mediciones Habilitadas</h3>
-                <br>
-                <a href="<?php echo base_url(); ?>index.php/medicion/agregar">
-                    <button type="button" class="btn btn-primary">Crear Medicion</button>
-                </a>
-
-                <a href="<?php echo base_url(); ?>index.php/medicion/deshabilitados">
-                    <button type="button" class="btn btn-primary">Lista Deshabilitados</button>
-                </a>
+                <div class="text-center">
+                  <h3 class="card-title">Mediciones Habilitadas</h3>
+                  <br>
+                  <a href="<?php echo base_url(); ?>index.php/medicion/agregar" class="btn btn-primary">Crear Medicion</a>
+                  <a href="<?php echo base_url(); ?>index.php/medicion/deshabilitados" class="btn btn-primary">Lista Deshabilitados</a>
+                </div>
 
 
+                <!--
                 <a href="<?php echo base_url(); ?>index.php/usuarios/logout">
                     <button type="button" class="btn btn-danger">Cerrar Sesión</button>
-                </a>
+                </a>-->
 
-                
+                <!--
                 <h3>
-                  Login: <?php echo $this->session->userdata('login'); ?> <br>
+                  Login: <?php echo $this->session->userdata('login'); ?>  <br>
                   id: <?php echo $this->session->userdata('idusuario'); ?> <br>
                   Tipo: <?php echo $this->session->userdata('tipo'); ?> <br>
                 </h3>
-
+                -->
                 <hr>
               <!--
                 <a href="<?php echo base_url();?>index.php/medicion/listapdf" target="_blank">

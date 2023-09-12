@@ -16,6 +16,10 @@
         <div class="info">
           
           <a href="#" class="d-block">Usuario: <?php echo $this->session->userdata('login'); ?></a>
+          <a href="#" class="d-block">Tipo: <?php echo $this->session->userdata('tipo'); ?></a>
+          <a href="<?php echo base_url(); ?>index.php/usuarios/logout">
+            <button type="button" class="btn btn-danger">Cerrar Sesión</button>
+          </a>
         </div>
       </div>
 

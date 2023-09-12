@@ -156,10 +156,12 @@ class Medicion extends CI_Controller {
 	{	
         $lista=$this->medicion_model->listamedicionesdesh();
 		$data['mediciones']=$lista;
-
-        $this->load->view('cabezera');
-		$this->load->view('med_listadesh',$data);
-        $this->load->view('pie');
+        
+        $this->load->view('inclte/cabezera');
+        $this->load->view('inclte/menusuperior');
+        $this->load->view('inclte/menulateral');
+        $this->load->view('med_listadesh',$data);
+        $this->load->view('inclte/pie');
 
 	}
 
