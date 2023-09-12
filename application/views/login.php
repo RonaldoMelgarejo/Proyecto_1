@@ -13,16 +13,28 @@
   <link rel="stylesheet" href="<?php echo base_url();?>/plugins/icheck-bootstrap/icheck-bootstrap.min.css">
   <!-- Theme style -->
   <link rel="stylesheet" href="<?php echo base_url();?>adminlte/dist/css/adminlte.min.css">
+
+  <style>
+    body {
+            background-image: url('https://www.enlight.mx/hs-fs/hubfs/Imported_Blog_Media/art-1-Los-sistemas-fotovoltaicos-ante-las-crisis-energeticas-3.jpg?width=900&height=500&name=art-1-Los-sistemas-fotovoltaicos-ante-las-crisis-energeticas-3.jpg'); /* Reemplaza la URL con la dirección de tu imagen en línea */
+            background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el cuerpo */
+            background-repeat: no-repeat; /* Evita que la imagen de fondo se repita */
+        }
+  </style>
 </head>
 <body class="hold-transition login-page">
 <div class="login-box">
+  <!-- 
   <div class="login-logo">
     <a href="../../index2.html"><b>Inicie sesión</b></a>
-  </div>
+  </div> -->
   <!-- /.login-logo -->
   <div class="card">
     <div class="card-body login-card-body">
 
+    <div class="login-logo">
+    <a href="../../index2.html"><b>Inicie sesión</b></a>
+    </div>
     <?php
     switch($msg)
     {
@@ -82,7 +94,7 @@ echo form_open_multipart('usuarios/validarusuario', array('id'=>'form1','class'=
             </div>
           </div>-->
           <!-- /.col -->
-          <div class="col-4">
+          <div class="col-4 mx-auto">
             <button type="submit" class="btn btn-primary btn-block">Iniciar sesión</button>
           </div>
           <!-- /.col -->
